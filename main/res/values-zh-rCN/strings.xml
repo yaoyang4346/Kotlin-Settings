@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="temp"> ٩(๑❛ᴗ❛๑)۶ </string>
+    <string name="app_name">设置</string>
+    <string name="error_mag">初始化错误！</string>
+    <string name="start_error">暂时无法打开</string>
+</resources>
