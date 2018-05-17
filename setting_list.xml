@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	package :	目标包名，默认为设置的包名
+	class	:	目标类名，必填
+	title	:	条目标题资源名，必填
+	icon	:	条目图标资源名，必填
+	visible	:	是否可见，'1'可见 '0'不可见，默认为可见
+	switch	:	动态显示属性名，没有可不填，Settings.System中的属性名，int类型
+ -->
+<List>
+	<!-- wifi -->
+    <item  class="Settings$WifiSettingsActivity" title="wifi_settings" icon="ic_settings_wireless"  />
+	
+	<!-- bluetooth -->
+    <item  class="Settings$BluetoothSettingsActivity" title="bluetooth_settings_title" icon="ic_settings_bluetooth" />
+	
+	<!-- sim -->
+	<item  class="Settings$SimSettingsActivity" title="sim_settings_title" icon="ic_sim_card"  />
+	
+	<!-- datausage -->
+    <item  class="Settings$DataUsageSummaryActivity" title="data_usage_summary_title" icon="ic_settings_data_usage" />
+	
+	<!-- roaming -->
+	<item  package="com.qualcomm.roamingsettings" class="RoamingSettingsActivity" title="label_global_roaming_settings" icon="ic_roam" />
+	
+	<!-- more -->
+	<item  class="Settings$WirelessSettingsActivity" title="wireless_networks_settings_title" icon="ic_settings_more" />
+	
+	<!-- display -->
+    <item  class="Settings$DisplaySettingsActivity" title="display_settings" icon="ic_settings_display" />
+	
+	<!-- font -->
+	<item  class="Settings$YiqiFontSettingsActivity" title="font_setting_title" icon="ic_font" visible="0"/>
+
+	<!-- Notification -->
+	<item  class="Settings$NotificationAppListActivity" title="app_notifications_title" icon="ic_settings_notifications" />
+	
+	<!-- Sound -->
+	<item  class="Settings$SoundSettingsActivity" title="sound_settings" icon="ic_settings_sound" />
+
+	<!-- Applications -->
+	<item  class="Settings$ManageApplicationsActivity" title="applications_settings" icon="ic_settings_applications" />
+
+	<!-- Storage -->
+	<item  class="Settings$StorageSettingsActivity" title="storage_settings_title" icon="ic_settings_storage" />
+
+	<!-- PowerUsage -->
+	<item  class="Settings$PowerUsageSummaryActivity" title="power_usage_summary_title" icon="ic_settings_battery" />
+	
+	<!-- memory -->
+    <item  class="Settings$MemorySettingsActivity" title="memory_settings_title" icon="ic_settings_memory" visible="0" />
+
+	<!-- Location -->
+	<item  class="Settings$LocationSettingsActivity" title="location_settings_title" icon="ic_settings_location" />
+
+	<!-- Security -->
+	<item  class="Settings$SecuritySettingsActivity" title="security_settings_title" icon="ic_settings_security" />
+	
+	<!-- Account -->
+    <item  class="Settings$AccountSettingsActivity" title="account_settings_title" icon="ic_settings_accounts" visible="0" />
+
+	<!-- InputMethodAndLanguage -->
+	<item  class="Settings$InputMethodAndLanguageSettingsActivity" title="language_keyboard_settings_title" icon="ic_settings_language" />
+
+	<!-- backup -->
+	<item  class="Settings$PrivacySettingsActivity" title="privacy_settings_title" icon="ic_settings_backup" />
+
+	<!-- DateAndTime -->
+	<item  class="Settings$DateTimeSettingsActivity" title="date_and_time" icon="ic_settings_date_time" />
+
+	<!-- TimerSwitch -->
+    <item  class="Settings$TimerSwitchSettingsActivity" title="timer_switch_settings_title" icon="ic_settings_timerswitch" visible="0" />
+
+	<!-- Accessibility -->
+	<item  class="Settings$AccessibilitySettingsActivity" title="accessibility_settings" icon="ic_settings_accessibility" />
+
+	<!-- Print -->
+    <item  class="Settings$PrintSettingsActivity" title="print_settings" icon="ic_settings_print" visible="0" />
+	
+	<!-- Development -->
+    <item  class="Settings$DevelopmentSettingsActivity" title="development_settings_title" icon="ic_devel" switch="new_settings_dev"/>
+	
+	<!-- DeviceInfo -->
+    <item  class="Settings$DeviceInfoSettingsActivity" title="about_settings" icon="ic_settings_about" />
+</List>
